@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  docker-spring-hello-world:
+    image: ghcr.io/antyung88/spring-hello-world:latest
+    ports:
+      - "8080:8080"
