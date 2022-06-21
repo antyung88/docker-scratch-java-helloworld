@@ -1,7 +1,0 @@
-version: '3.3'
-services:
-  spring-hello-world-test:
-    container_name: spring-hello-world-test
-    image: ghcr.io/antyung88/spring-hello-world:test
-    ports:
-      - "8080:8080"
