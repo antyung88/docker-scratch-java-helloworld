@@ -49,4 +49,3 @@ jobs:
           echo $APP_VERSION
           docker build . -t ghcr.io/${{ github.actor}}/${{ secrets.image }}:latest --build-arg "APP_ARTIFACTID=$APP_ARTIFACTID" --build-arg "APP_VERSION=$APP_VERSION"
           docker push ghcr.io/${{ github.actor}}/${{ secrets.image }}:latest
-          
